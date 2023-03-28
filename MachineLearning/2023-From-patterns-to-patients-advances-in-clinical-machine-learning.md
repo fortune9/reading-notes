@@ -1,0 +1,76 @@
+From patterns to patients: Advances in clinical machine learning for
+cancer diagnosis, prognosis, and treatment
+================
+Mar 27, 2023
+
+-   [Paper](#paper)
+-   [Notes](#notes)
+    -   [Machine learning types](#machine-learning-types)
+    -   [Neural network types](#neural-network-types)
+    -   [Training techniques](#training-techniques)
+    -   [Image-based ML](#image-based-ml)
+    -   [Molecular marker-based ML](#molecular-marker-based-ml)
+
+## Paper
+
+-   title: From patterns to patients: Advances in clinical machine
+    learning for cancer diagnosis, prognosis, and treatment
+-   link: <https://doi.org/10.1016/j.cell.2023.01.035>
+
+## Notes
+
+### Machine learning types
+
+-   Supervised vs unsupervised: the former has labels for training data
+    while the latter doesn’t.
+
+-   Traditional ML vs deep learning (DL): the former includes random
+    forest, SVM, logistic regression, and the latter is based on neural
+    network. DL is more flexible for input data while traditional ML
+    remains useful when training data size is limited. Traditional ML is
+    implemented in Python scikit-learn package, while DL can be built
+    using PyTorch and TensorFlow packages.
+
+### Neural network types
+
+-   CNN: convolutional neural network, designed for processing images
+
+-   GNN: graph neural network, handling graph data, such as cell-cell
+    interactions
+
+-   RNN: recurrent neural network, handing sequential data such as
+    genetic sequences or series of images
+
+### Training techniques
+
+-   transfer training: train model on similar big dataset first and then
+    train on the small real data.
+
+-   augumentation: artificially modifying input data to expand the
+    training set
+
+-   regularization: control the parameter size of a model to prevent
+    overfitting.
+
+-   weak supervision: such as multiple instance learning, predicing on
+    small pieces and then aggregate to get the whole piece.
+
+### Image-based ML
+
+-   Early ML used hand-crafted image features as inputs for models such
+    as SVM and random forest.
+
+-   DL took dominance in the early 2010s, and it learned features
+    automatically from images without human inputs. Can be applied to
+    cases such as X-ray and MRIs.
+
+-   ML can be used at 3 stages: risk stratification, diagnosis, and
+    prognosis and treatment selection.
+
+### Molecular marker-based ML
+
+-   characteristics of liquid and solid tumor biopsy data:
+    -   small data size, needing carefully choosing features
+    -   high dimension, needing regularization to avoid overfitting
+    -   low signal-to-noise ratio due to low abundance of circulating
+        tumor DNA in cfDNA (0.01%-10%)
