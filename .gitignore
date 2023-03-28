@@ -1,3 +1,7 @@
+# paper files
+*.pdf
+
+# html outputs
 Biology/*.html
 MachineLearning/*.html
 Statistics/*.html
