@@ -1,4 +1,6 @@
 Biology/*.html
+MachineLearning/*.html
+Statistics/*.html
 
 # temp files
 *.swp$
