@@ -12,6 +12,9 @@ This repository contains my personal reading notes on various topics. The notes 
 ### Machine Learning
 - [2023 - From patterns to patients: advances in clinical machine learning](MachineLearning/2023-From-patterns-to-patients-advances-in-clinical-machine-learning.md)
 
+#### AI
+- [2024 - Deep generative AI models analyzing circulating orphan non-coding RNAs enable detection of early-stage lung cancer](MachineLearning/AI/2024-Deep-generative-AI-models-analyzing-circulating-orphan-non-coding-RNAs-enable-detection-of-early-stage-lung-cancer.md)
+
 ### Math
 *No notes yet*
 

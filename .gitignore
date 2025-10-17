@@ -9,3 +9,6 @@ Statistics/*.html
 # temp files
 *.swp$
 
+# sensitive files
+.env
+
