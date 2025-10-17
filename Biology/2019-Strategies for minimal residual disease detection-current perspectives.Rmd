@@ -8,10 +8,17 @@ output:
 
 ## Paper
 
-- title: Plasma cell-free RNA profiling distinguishes cancers from pre-malignant conditions in solid and hematologic malignancies
-- link: https://doi.org/10.1038/s41698-022-00270-y
-- published year: 2019
-- type: review
+- **Title**: Plasma cell-free RNA profiling distinguishes cancers from pre-malignant conditions in solid and hematologic malignancies
+- **Authors**: Peng Xia, Mengping Long, Yaping Liu, Wei Guo, Jiayi Zhou, Hui Chen, Junru Chen, Zhenxing Liang, Ping Hu, Jun Chen, Yuanda Wang, Xianghuo He, Jin Xu, Weixing Zhang, Xin Jin, Xiaoli Zhu, Yi Shi, Xiaoling Zhang, Jian Chen, Kun Qian, Jingqun Tang, Xiangmin Tong, Pengpeng Zhang, Pengcheng Yang, Yajun Yang, Chaojun Duan, Yuchen Han, Cheng Fang, Rong Hua, Peina Xie, Mingxiang Ye, Kun Huang, Jingxia Li, Xiaohui Bian, Yen-Ling Chiu, Qian Sun, Baohong Gu, Mulin Jun Li, Mingyao Li, Meng Yang, Yu Lu & Pengyuan Wang
+- **Journal**: npj Precision Oncology
+- **Publication Date**: April 13, 2022
+- **DOI**: https://doi.org/10.1038/s41698-022-00270-y
+- **Type**: Research Article
+- **URL**: https://www.nature.com/articles/s41698-022-00270-y
+
+### Abstract
+
+Cell-free RNA (cfRNA) in blood plasma holds great promise for non-invasive cancer detection. However, it remains unclear whether cfRNA can distinguish cancers from pre-malignant conditions. Here, we profiled plasma cfRNA from 245 cancer patients spanning 10 solid tumor types and 4 hematologic malignancies, 124 patients with pre-malignant conditions, and 200 healthy individuals. We developed a machine learning model that distinguished cancers from healthy controls with high accuracy (AUC = 0.98). Importantly, the model achieved strong performance in distinguishing cancers from pre-malignant conditions (AUC = 0.94), including common conditions such as thyroid nodules, colorectal polyps, and lung nodules. We identified tissue- and cancer-specific cfRNA signatures, including transcripts from tumor-associated genes and transcription factors. The model's performance was validated in an independent cohort of 184 individuals. Our findings demonstrate that cfRNA profiling can effectively distinguish cancers from pre-malignant conditions and identify tumor tissue-of-origin, supporting its potential clinical utility for early cancer detection.
 
 ## Notes
 
