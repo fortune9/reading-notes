@@ -14,6 +14,7 @@ This repository contains my personal reading notes on various topics. The notes 
 
 #### AI
 - [2024 - Deep generative AI models analyzing circulating orphan non-coding RNAs enable detection of early-stage lung cancer](MachineLearning/AI/2024-Deep-generative-AI-models-analyzing-circulating-orphan-non-coding-RNAs-enable-detection-of-early-stage-lung-cancer.md)
+- [2025 - AI-based diagnosis of acute aortic syndrome from noncontrast CT](MachineLearning/AI/2025-AI-based-diagnosis-of-acute-aortic-syndrome-from-noncontrast-CT.md)
 
 ### Math
 *No notes yet*
