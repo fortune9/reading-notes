@@ -20,7 +20,7 @@ This repository contains my personal reading notes on various topics. The notes 
 *No notes yet*
 
 ### Bioinformatics
-*No notes yet*
+- [2020 - NanoVar: accurate characterization of patients’ genomic structural variants using low-depth nanopore sequencing](bioinformatics/2020-NanoVar-accurate-characterization-of-genomic-structural-variants-using-low-depth-nanopore-sequencing.md)
 
 ### Cancer Biology
 *No notes yet*

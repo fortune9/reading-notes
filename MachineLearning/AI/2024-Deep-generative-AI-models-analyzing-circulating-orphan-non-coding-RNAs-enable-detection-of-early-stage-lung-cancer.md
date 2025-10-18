@@ -19,15 +19,24 @@ Lung cancer is the leading cause of cancer-related deaths worldwide, and early d
 ### Resources
 
 #### Datasets
-- **RNA sequencing data**: Available through public repositories (check the paper's Data Availability section for specific GEO accession numbers)
-- **Study cohort**: 1,050 NSCLC patients across various stages plus healthy controls
-- **Validation cohort**: Independent cohort for model validation
+- **Raw & processed sequencing (oncRNA / cfRNA)**: (GEO) GSEXXXXX (placeholder – replace with actual accession once confirmed from paper Data Availability)
+- **Controlled-access clinical metadata**: Likely at dbGaP (referenced in Data Availability) — add accession (e.g., phs00XXXX) when available.
+- **Preprint supplementary tables**: medRxiv version (if needed for interim accession listing): https://www.medrxiv.org/content/10.1101/2024.04.09.24304531v1
+- **Study cohort description**: 1,050 NSCLC patients (all stages) + healthy controls (exact stage distribution in Supplementary Table X)
+- **Independent validation cohort**: External site cohort; add GEO/SRA links once verified.
 
 #### Code Repositories
-- **Orion GitHub repository**: https://github.com/exai-oss/orion
-  - Contains the deep generative AI model implementation
-  - Includes code for analyzing circulating orphan non-coding RNAs
-  - Provides tools for early-stage lung cancer detection
+- **Primary model (Orion)**: https://github.com/exai-oss/orion
+  - Deep generative architecture & training scripts
+  - Inference pipeline for oncRNA classification
+  - Environment / dependencies (Dockerfile & requirements)
+- **Model card / documentation**: (If separate, add link) PLACEHOLDER
+- **Data processing workflow**: (Snakemake / Nextflow) Add link if published separately.
+
+#### Supplementary / Registry
+- **DOI Landing**: https://doi.org/10.1038/s41467-024-53851-9
+- **Preprint**: https://www.medrxiv.org/content/10.1101/2024.04.09.24304531v1
+- **Clinical trial registration**: Not a registered interventional trial (screening discovery study) – none listed.
 
 ## Notes
 

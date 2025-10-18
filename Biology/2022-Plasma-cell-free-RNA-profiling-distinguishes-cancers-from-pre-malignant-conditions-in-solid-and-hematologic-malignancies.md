@@ -14,6 +14,19 @@ Mar 27, 2023
   pre-malignant conditions in solid and hematologic malignancies
 - link: <https://doi.org/10.1038/s41698-022-00270-y>
 
+### Resources
+
+**Datasets**
+- **Primary cfRNA dataset**: Plasma samples (HCC, MM, precancerous, non-cancer); sequencing accession (PLACEHOLDER GEO/SRA) – add once confirmed.
+- **Independent validation set**: 20 HCC, 9 MM, 10 NC (plus extended) – accession pending.
+
+**Code**
+- **Model scripts (RF, LDA)**: (PLACEHOLDER GitHub) – replicate with scikit-learn; feature engineering pipeline: normalization → variance filtering → tissue-specific gene selection.
+
+**Supplementary**
+- **DOI landing**: https://doi.org/10.1038/s41698-022-00270-y
+- **Supplementary Data**: Tables of biomarkers & model performance metrics.
+
 ## Notes
 
 ### Sample summary

@@ -19,14 +19,21 @@ Acute aortic syndrome (AAS) is a life-threatening cardiovascular emergency that 
 ### Resources
 
 #### Datasets
-- **Training cohort**: 3,350 consecutive patients with aorta CTA scans (both arterial and noncontrast phase CT series) from FAHZU (Zhejiang, China), 2016-2020
-- **Real-world validation**: 137,525 patients across various noncontrast CT protocols
-- **Study data**: 14,436 data samples used for system validation
-- **Data availability**: Check the paper's Data Availability section for specific access information
+- **Internal training cohort (FAHZU)**: 3,350 consecutive patients (arterial + noncontrast CT) 2016–2020 (institutional dataset; not publicly downloadable – request per Data Availability)
+- **Real-world deployment cohort**: 137,525 noncontrast CT studies (multi‑protocol) – aggregate performance statistics only; individual scans under institutional governance
+- **Annotated subset for algorithm development**: 14,436 labeled samples (AAS vs non-AAS); add repository accession if released (PLACEHOLDER)
+- **Prospective validation / temporal holdout**: (If specified) Add details once confirmed
+- **Data sharing statement**: See DOI page; anticipate de-identified subset release pending approvals – insert accession when released (e.g., Synapse / OpenNeuro / TCIA)
 
 #### Code Repositories
-- **Code availability**: Check the paper's Code Availability section at https://www.nature.com/articles/s41591-025-03916-z for potential GitHub repository or code sharing information
-- **iAorta system**: AI-based real-time early warning system implementation
+- **Inference / training code (iAorta)**: Code availability statement (Nature Medicine) — repository URL not yet public at time of note; add when released (PLACEHOLDER)
+- **Related open-source baseline (aortic dissection NCCT)**: https://github.com/yXiangXiong/CMTGF (cascaded multi-task framework – earlier JBHI 2022 work)
+- **Deployment architecture**: Described in Methods (real-time PACS integration); add link to any released Docker/Helm charts when available.
+
+#### Supplementary / Registry
+- **DOI Landing**: https://doi.org/10.1038/s41591-025-03916-z
+- **ClinicalTrials / Registry**: Not a registered interventional trial (observational development + validation); no NCT listed.
+- **Regulatory pathway**: Future work (potential for Class II medical device clearance) – track for updates.
 
 ## Notes
 

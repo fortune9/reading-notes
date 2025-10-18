@@ -15,6 +15,22 @@ Mar 26, 2023
     cancer detection
 -   link: <https://doi.org/10.1038/s41467-021-22444-1>
 
+### Resources
+
+**Datasets**
+- **Primary cfRNA sequencing cohort**: CCGA (Circulating Cell-free Genome Atlas) trial (NCT02889978) – controlled-access via GRAIL / data access committee.
+- **Gene expression matrices & processed counts**: GEO accession (PLACEHOLDER e.g., GSE17xxxx) – insert actual once verified from Data Availability.
+- **Clinical annotations**: Available under controlled access (patient consent restrictions) – request through trial portal.
+
+**Code / Pipelines**
+- **Analysis scripts**: (PLACEHOLDER) If authors deposited (GitHub link to preprocessing, tissue-of-origin classifier) add here.
+- **Example tissue-of-origin model approach**: Random forest / LDA (as described) – replicate with scikit-learn using DCB gene panel.
+
+**Supplementary**
+- **Clinical trial registration**: NCT02889978
+- **DOI landing**: https://doi.org/10.1038/s41467-021-22444-1
+- **Supplementary information**: Linked on publisher site (tables listing DCB genes, expression filters).
+
 ## Notes
 
 ### Sample summary

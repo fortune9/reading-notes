@@ -25,6 +25,22 @@ Oct 17, 2025
   - **Type**: Research Article
   - **URL**: <https://www.nature.com/articles/s41698-022-00270-y>
 
+### Resources
+
+**Datasets**
+- **Discovery cohort**: 245 cancer patients (10 solid tumor types + 4 hematologic malignancies), 124 premalignant, 200 healthy. Sequencing repository accession (PLACEHOLDER GEO/SRA e.g., GSE18xxxx) – fill in after verifying Data Availability.
+- **Validation cohort**: Independent 184-individual cohort (20 HCC, 9 MM, 10 NC + others) – add accession when public.
+- **Processed count matrices / expression tables**: Supplementary Data (publisher site) – download and archive locally if reused.
+
+**Code**
+- **Classification pipeline (Random Forest / LDA)**: (PLACEHOLDER GitHub repo if authors released). Re-implement via scikit-learn using normalized TPM matrix restricted to selected tissue-specific cfRNA features.
+- **Feature list generation**: Derive DCB (dark channel biomarker) genes via low-noise filtering + recurrence thresholds (see Methods).
+
+**Supplementary**
+- **DOI landing**: https://doi.org/10.1038/s41698-022-00270-y
+- **Supplementary Tables**: Tissue-specific cfRNA biomarker lists (HCC vs MM) for reproduction of panel.
+- **Clinical annotations**: Likely controlled access due to identifiable patient data; request through corresponding author or repository governance.
+
 ### Abstract
 
 Cell-free RNA (cfRNA) in blood plasma holds great promise for
